@@ -72,7 +72,7 @@
 -->
 
 <panel w=400 h=650>
-<pic src="pics/happycomputer.jpg" sx = 0 sy = 0></pic>
+<pic src="pics/happycomputer.jpg" sx = 1191 sy = 2500></pic>
 <words x=10 y=10 w=350 h=60>
 	Research has shown that...
 </words>
@@ -115,7 +115,7 @@
 <words x=155 y=20 w=90 no-bg>
 	Yeah.
 </words>
-<words x=196 y=45 w=270 no-bg>
+<words x=196 y=75 w=270 no-bg>
 	<i>No one</i> cares, 
 	not organizations, not academics.
 </words>
@@ -412,7 +412,7 @@
 	
 <panel w=500 h=450>
 <pic src="pics/leit0.png" sx=0 sy=0></pic>
-<words x=10 y=20 w=430 h=60>
+<words x=10 y=35 w=430 h=50>
 	<i>Instructional support</i> enhances the understanding of the content by giving examples, hints, feedback, and coaching.
 </words>
 <words x=3 y=119 w=140 no-bg class="comic_text smaller" style="font-size:22px">
@@ -466,12 +466,15 @@
 	Basically support your learners in creating the best learning environment!
 </words>
 </panel>
+
+<panel w=600 h=90>
+<words w=600 x=-15 no-bg>
+	Here's the model graph again as a reminder of how these pieces come together!
+</words>
+</panel>
 	
 <panel w=500 h=450>
 <img src="pics/modelgraph.png" width: 100% height:100%></img>
-<words x=10 y=10 w=430 h=60>
-	Here's the model graph again as a reminder of how these pieces come together!
-</words>
 </panel>
 	
 <panel w=600 h=90>
@@ -482,7 +485,7 @@
 </panel>
 
 <panel w=600 h=400 bg="#e0e0e0">
-<sim x=0 y=0 w=600 h=400 src="sims/multicard/?cards=sci_a,sci_b,intro_b,sci_c"></sim>
+<sim x=0 y=0 w=600 h=400 src="sims/multicard/?cards=sci_a,sci_b,intro_b"></sim>
 </panel>
 	
 	
@@ -572,8 +575,8 @@
 </words>
 </panel>
 
-<panel w=600 h=300 bg="#e0e0e0">
-<sim x=80 y=0 w=440 h=300 src="sims/singlecard/?card=guessgap"></sim>
+<<panel w=600 h=400 bg="#e0e0e0">
+<sim x=0 y=0 w=600 h=400 src="sims/multicard/?cards=sci_c,sci_d"></sim>
 </panel>
 
 <panel fadeInOn="flip_guessgap" w=600 h=120>
@@ -1248,16 +1251,6 @@ Good luck!
 <!-- CHAPTER 1: The Science -->
 <!-- - - - - - - - - - - - -->
 
-<span id="flashcard_guessgap_front">
-	<div class="fcard_center" style="height:2.5em">
-	The three parts to the Input unit are...
-	</div>
-</span>
-<span id="flashcard_guessgap_back">
-	<div class="fcard_center" style="height:2.5em">
-	...learning goal level, self-directedness, and computer self-efficacy!
-	</div>
-</span>
 <span id="flashcard_sci_a_front">
 	<div id="fc_words" class="fcard_center" style="height:3.5em">
 	Instructional strategy design consists of...
@@ -1266,6 +1259,16 @@ Good luck!
 <span id="flashcard_sci_a_back">
 	<div id="fc_words" style="height: 2.5em;">
 	determining, sequencing, presenting, and delivering content!
+	</div>
+</span>
+<span id="flashcard_sci_b_front">
+	<div id="fc_words" class="fcard_center" style="height:3.4em">
+	The three parts to the Process unit are...
+	</div>
+</span>
+<span id="flashcard_sci_b_back">
+	<div id="fc_words" style="position: absolute; width: 360px; top: 120px; left: 20px; font-size:20px; line-height: 1.1em;">
+	...instructional strategy design, CBI design, and external support!
 	</div>
 </span>
 <span id="flashcard_sci_c_front">
@@ -1278,15 +1281,15 @@ Good luck!
 	<div id="fc_words" style="position: absolute; width: 280px; top: 70px; left: 100px; font-size:20px; line-height: 1.1em;">
 	(note: it decreases quickly, then slowly - "0 motivation")
 	</div>
-</span>
-<span id="flashcard_sci_b_front">
-	<div id="fc_words" class="fcard_center" style="height:3.4em">
-	The three parts to the Process unit are...
+</span>	
+<span id="flashcard_sci_d_front">
+	<div class="fcard_center" style="height:2.5em">
+	The three parts to the Input unit are...
 	</div>
 </span>
-<span id="flashcard_sci_b_back">
-	<div id="fc_words" style="position: absolute; width: 360px; top: 120px; left: 20px; font-size:20px; line-height: 1.1em;">
-	...instructional strategy design, CBI design, and external support!
+<span id="flashcard_sci_d_back">
+	<div class="fcard_center" style="height:2.5em">
+	...learning goal level, self-directedness, and computer self-efficacy!
 	</div>
 </span>
 
